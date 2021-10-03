@@ -1,30 +1,53 @@
 @import "reset.css";
-
-body{
+.title{
+    background-color: #f6f9fc;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 150px;
+    font-size : 80px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 30px;
+}
+.Painting{
     background-color: #f6f9fc;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display:flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top:50px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left: 250px;
 }
 
 .canvas{
-    width:700px;
+    width:800px;
     height:700px;
     background-color: white;
     border-radius: 15px;
     box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    margin-right: 100px;
+
 }
+.controls__btns:first-child{
+    background-color: #9fc0cf;
+}
+
 .controls{
     margin-top: 80px;
 }
 
-.controls .controls__colors{
+.controls .controls__colors1,
+.controls .controls__colors2{
     display:flex;
+    justify-content: space-between;
+    width:580px;
 }
 
-.controls__colors .controls__color{
+.controls__colors2{
+    padding-top: 20px;
+}
+
+.controls__colors1 .controls__color,
+.controls__colors2 .controls__color{
     width:50px;
     height:50px;
     border-radius: 25px;
