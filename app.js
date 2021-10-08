@@ -31,9 +31,9 @@ function startPainting(){
 
 function onMouseMove(event){
     const x = event.offsetX;
-    const y = event.offsetY;   
+    const y = event.offsetY;
     if(!painting){
-        ctx.beginPath();
+        
         ctx.moveTo(x,y);
     }else {
         ctx.lineTo(x,y);
@@ -56,9 +56,11 @@ function handleModeClick(){
     if(filling===true){
         filling = false;
         mode.innerText = "Fill";
+        ctx.canvas.style.cursor = "default";
     }else{
         filling = true;
         mode.innerText = "Paint";
+        ctx.canvas.style.cursor = "pointer";
     }
 }
 
