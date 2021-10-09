@@ -7,8 +7,8 @@
 
 ## 적용 기술
 #### Main
-* HTML
-* CSS
+* HTML5
+* CSS3
 * JavaScript
 
 #### 구현 기능
@@ -16,4 +16,7 @@
 * Color Tool 선택
 * 전체 지우기
 * 저장 기능
+
+#### 구현 화면
+
 
