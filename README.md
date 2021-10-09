@@ -19,4 +19,4 @@
 
 #### 구현 화면
 
-
+<img width="837" alt="Drawing_board" src="https://user-images.githubusercontent.com/90557778/136642114-c03b03df-9f01-4fe3-82de-1463ac332820.PNG">
